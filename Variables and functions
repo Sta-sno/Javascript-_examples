@@ -1,0 +1,18 @@
+//Write down three variables that contain 100 letters each
+     var name1 = "abcdefghijklmnopqrstuvwxyz" * 4
+     var name2 = "STACY" * 20
+     var name3  = "SVEN" * 25
+   
+//Writing a function for printing 3 names
+function names(name1,name2,name3){
+document.write("Hi, my name is + name3 + "and these are my parents" + name1 "and" + name2)
+
+names("SVEN","BERNAH","STACY");
+
+
+//writing a functiion
+function minimum3(num1, num2,num3){
+return Math.min(num1,num2,num3);
+}
+
+minimum3(5,6,7);
